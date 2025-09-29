@@ -1,6 +1,7 @@
 # Sign Language Recognition System
 
-The project is a Machine Learning and Computer Vision based system designed to recognize Sign Language letters using a webcam. It leverages MediaPipe for hand tracking and Scikit-Learn (SVM) for classification.This project is a part of the AI Committee in IEEE AIU Student Branch.
+The project is a Machine Learning and Computer Vision based system designed to recognize Sign Language letters using a webcam. It leverages MediaPipe for hand tracking and Scikit-Learn (SVM) for classification.
+This project is a part of the AI Committee in IEEE AIU Student Branch.
 
 ---
 
@@ -18,7 +19,7 @@ The project is a Machine Learning and Computer Vision based system designed to r
 
 * Programming Language: Python
 * Machine Learning: Scikit-Learn (Support Vector Machine - SVM)
-* Computer Vision: OpenCV, MediaPipe 
+* Computer Vision: OpenCV, MediaPipe
 * Model Persistence: Pickle
 
 ---
@@ -27,11 +28,11 @@ The project is a Machine Learning and Computer Vision based system designed to r
 
 ```
 Sign-Language-Recognition
-│── Train.py          # Model training scrip
-│── Sign reco.py      # Real-time recognition using webcam
-│── sign_model.pkl    # Saved trained model (generated after training)
+│── Train.py           # Model training script
+│── Sign reco.py       # Real-time recognition using webcam
+│── sign_model.pkl     # Saved trained model (generated after training)
 │── Gesture Image Data # Dataset (images of hand signs, structured by class folders)
-│── README.md         # Project documentation
+│── README.md          # Project documentation
 ```
 
 ---
@@ -74,6 +75,17 @@ Sign-Language-Recognition
     * Letter predictions with confidence score.
     * Current word being formed.
 
+---
 
+## Demo
+
+A demo of the system has been provided to showcase real-time recognition results.
+It demonstrates how the model predicts letters from hand gestures, displays them on the webcam feed, and constructs words dynamically.
+
+---
+
+## Future Improvements
+
+* Expand dataset for full word recognition.
 * Add sentence prediction using sequence models (LSTM/Transformer).
 * Deploy via web app (Flask/Streamlit) for accessibility.
