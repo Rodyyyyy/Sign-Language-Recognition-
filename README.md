@@ -81,11 +81,3 @@ Sign-Language-Recognition
 
 A demo of the system has been provided to showcase real-time recognition results.
 It demonstrates how the model predicts letters from hand gestures, displays them on the webcam feed, and constructs words dynamically.
-
----
-
-## Future Improvements
-
-* Expand dataset for full word recognition.
-* Add sentence prediction using sequence models (LSTM/Transformer).
-* Deploy via web app (Flask/Streamlit) for accessibility.
